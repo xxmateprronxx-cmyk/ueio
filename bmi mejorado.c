@@ -20,6 +20,26 @@ int main(void)
     printf("  18.5-24.9| Normal\n");
     printf("  25.0-29.9| Sobrepeso\n");
     printf("  >= 30    | Obesidad\n");
+    
+	if (indice < 18.5)
+		printf("Ud. tiene desnutrución");
+
+	else if (indice >= 18.5 && indice <24.9)
+	{
+		printf("Ud. tiene un peso normal");
+	}
+
+	else if (indice >= 25 && indice <29.9)
+
+	{
+		printf("Ud. tiene sobrepeso");
+	}
+
+	else if (indice >= 30)
+
+	{
+		printf("Ud. tiene obesidad");
+	}
 
     return 0;
 }
